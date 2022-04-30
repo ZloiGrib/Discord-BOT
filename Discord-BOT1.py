@@ -6,7 +6,7 @@ from config import settings
 
 # os.chdir('/home/peoples/discord-bot')
 
-def parse_city_json(json_file='Goroda.json'):
+def parse_city_json(json_file='russia.json'):
     content = {}
     p_obj = None
     try:
