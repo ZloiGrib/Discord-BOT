@@ -4,10 +4,7 @@ import discord
 from config import settings
 
 
-# os.chdir('/home/peoples/discord-bot')
-
 def parse_city_json(json_file='Goroda.json'):
-    content = {}
     p_obj = None
     try:
         js_obj = open(json_file, "r", encoding="utf-8")
