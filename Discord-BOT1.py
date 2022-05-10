@@ -45,7 +45,7 @@ def get_city(city):
                         # Если бот не называл город, но потом назвал добовляем в список названных городов.
                         cities_already_named.add(city)
                         get_city.previous_city = city
-                        # Первы й символ строки заглавный.
+                        # Первый символ строки заглавный.
                         return city.capitalize()
             return 'Я не знаю города на эту букву. Вы выиграли!'
         else:
